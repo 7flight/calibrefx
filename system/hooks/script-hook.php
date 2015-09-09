@@ -18,7 +18,6 @@ function calibrefx_register_scripts() {
 	wp_register_style( 'jquery-lightbox', CALIBREFX_CSS_URL . '/lightbox.css' );
 
 	wp_register_style( 'twitter-bootstrap', CALIBREFX_CSS_URL . '/bootstrap.min.css' );
-	wp_register_style( 'calibrefx-style', CALIBREFX_CSS_URL . '/calibrefx.css' );
 	wp_register_style( 'calibrefx-shortcodes', CALIBREFX_CSS_URL . '/shortcodes.css' );
 	wp_register_style( 'font-awesome', CALIBREFX_CSS_URL . '/font-awesome.min.css' );
 	wp_register_style( 'calibrefx-icons', CALIBREFX_CSS_URL . '/cfxicons.css' );
