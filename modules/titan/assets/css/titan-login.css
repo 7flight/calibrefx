@@ -2,7 +2,17 @@ body {
 	font-family: 'Montserrat';
 }
 body.login {
-	background-image: -webkit-linear-gradient(30deg, rgba(60, 60, 60, 0.75) 0%, rgba(117, 65, 40, 1) 100%);
+	background-image: -webkit-linear-gradient(30deg, rgb(181, 107, 71) 0%, rgb(171, 60, 6) 100%);
+}
+.login h1 {
+	position: relative;
+}
+.login h1:after {
+	content: 'Titan';
+	position: absolute;
+	left: 75%;
+	bottom: -10px;
+	font-size: 18px;
 }
 body.login a,
 body.login a:hover,
@@ -45,7 +55,17 @@ div#login form {
 
 body.login div#login form#loginform p.submit input#wp-submit {
 	border: none;
-    padding: 10px;
     width: 50%;
     text-transform: uppercase;
+    height: 40px;
+    background-color: #3D636F;
+}
+body.login div#login form#loginform p.submit input#wp-submit:hover,
+body.login div#login form#loginform p.submit input#wp-submit:visited,
+body.login div#login form#loginform p.submit input#wp-submit:active {
+	outline: none;
+}
+body.login div#login form#loginform p.submit input#wp-submit:hover,
+body.login div#login form#loginform p.submit input#wp-submit:active {
+	background-color: #2E4248;
 }
