@@ -1,0 +1,51 @@
+body {
+	font-family: 'Montserrat';
+}
+body.login {
+	background-image: -webkit-linear-gradient(30deg, rgba(60, 60, 60, 0.75) 0%, rgba(117, 65, 40, 1) 100%);
+}
+body.login a,
+body.login a:hover,
+body.login a:active,
+body.login a:focus,
+body.login a:visited {
+	outline: none;
+}
+.login .message {
+    border-left: none;
+    position: relative;
+    overflow: hidden;
+}
+.login .message:before {
+    content: '';
+    position: absolute;
+    width: 15%;
+    height: 100%;
+    background-color: #666;
+    transform: skew(-22deg);
+    right: -4%;
+    top: 0;
+}
+.login .message:after {
+    content: '!';
+    position: absolute;
+    font-size: 60px;
+    right: 10px;
+    line-height: 0;
+    top: 50%;
+    transform: rotate(22deg);
+    color: #F7BC26;
+}
+div#login form {
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	background-color: #414042;
+}
+
+body.login div#login form#loginform p.submit input#wp-submit {
+	border: none;
+    padding: 10px;
+    width: 50%;
+    text-transform: uppercase;
+}

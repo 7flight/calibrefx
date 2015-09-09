@@ -24,12 +24,12 @@ function calibrefx_login_logo() {
 	$background_image = apply_filters( 'calibrefx_login_logo_url', CALIBREFX_IMAGES_URL . '/calibrefx-logo.png' );
 
 	echo '<style type="text/css">
-			html, body { border: 0 !important; background: none !important; }
-			body.login { background: #F5F5F5 !important; }
+			html, body { border: 0 !important;}
+			body.login { background: #F5F5F5; }
 
 			div#login { width: 400px !important; }
 			div#login h1 a { width:298px !important; background-size: 298px 66px; padding-bottom: 0; height: 70px !important; background-image: url( '.$background_image.' ) !important; background-repeat:no-repeat; }
-			div#login form { -moz-box-shadow: 1px 1px 5px #EEEEEE, -1px -1px 5px #EEEEEE !important; -webkit-box-shadow: 1px 1px 5px #EEEEEE, -1px -1px 5px #EEEEEE !important; box-shadow: 1px 1px 5px #EEEEEE, -1px -1px 5px #EEEEEE !important; }
+			div#login form { -moz-box-shadow: 1px 1px 5px #EEEEEE, -1px -1px 5px #EEEEEE ; -webkit-box-shadow: 1px 1px 5px #EEEEEE, -1px -1px 5px #EEEEEE; box-shadow: 1px 1px 5px #EEEEEE, -1px -1px 5px #EEEEEE; }
 			div#login form label { cursor:pointer; }
 			div#login form p.submit { margin-bottom: 0 !important; }
 			div#login form#lostpasswordform { padding-bottom: 16px !important; } div#login form#lostpasswordform p.submit { float: none !important; } div#login form#lostpasswordform input[type="submit"] { width: 100% !important; }

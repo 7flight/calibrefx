@@ -1,7 +1,7 @@
 <?php
 /**
  * Module Name: Hades Theme
- * Module Description: One of them themes for CFX Titan.
+ * Module Description: One of them themes for CalibreFX Titan.
  * First Introduced: 0.0.0
  * Requires Connection: No
  * Auto Activate: No
