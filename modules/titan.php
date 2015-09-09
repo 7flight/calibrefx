@@ -10,4 +10,6 @@
  * Module Tags: Appearance
  */
 
+define( 'TITAN_URI', CALIBREFX_MODULE_URL . '/titan/assets/js' );
+
 require_once dirname( __FILE__ ) . '/titan/titan.php';
