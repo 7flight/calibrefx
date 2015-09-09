@@ -5,7 +5,7 @@
  * First Introduced: 0.0.0
  * Requires Connection: No
  * Auto Activate: No
- * Sort Order: 1
+ * Sort Order: 8
  * Module Tags: Theme
  */
 

@@ -6,7 +6,7 @@
  * First Introduced: 2.0
  * Requires Connection: No
  * Auto Activate: No
- * Sort Order: 10
+ * Sort Order: 11
  * Module Tags: Appearance
  */
 
