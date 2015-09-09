@@ -1,0 +1,71 @@
+body {
+	font-family: 'Montserrat';
+}
+body.login {
+	background-image: -webkit-linear-gradient(30deg, rgb(181, 107, 71) 0%, rgb(171, 60, 6) 100%);
+}
+.login h1 {
+	position: relative;
+}
+.login h1:after {
+	content: 'Titan';
+	position: absolute;
+	left: 75%;
+	bottom: -10px;
+	font-size: 18px;
+}
+body.login a,
+body.login a:hover,
+body.login a:active,
+body.login a:focus,
+body.login a:visited {
+	outline: none;
+}
+.login .message {
+    border-left: none;
+    position: relative;
+    overflow: hidden;
+}
+.login .message:before {
+    content: '';
+    position: absolute;
+    width: 15%;
+    height: 100%;
+    background-color: #666;
+    transform: skew(-22deg);
+    right: -4%;
+    top: 0;
+}
+.login .message:after {
+    content: '!';
+    position: absolute;
+    font-size: 60px;
+    right: 10px;
+    line-height: 0;
+    top: 50%;
+    transform: rotate(22deg);
+    color: #F7BC26;
+}
+div#login form {
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	background-color: #414042;
+}
+
+body.login div#login form#loginform p.submit input#wp-submit {
+	border: none;
+    width: 50%;
+    text-transform: uppercase;
+    height: 40px;
+    background-color: #3D636F;
+}
+body.login div#login form#loginform p.submit input#wp-submit:hover,
+body.login div#login form#loginform p.submit input#wp-submit:visited,
+body.login div#login form#loginform p.submit input#wp-submit:active {
+	outline: none;
+}
+body.login div#login form#loginform p.submit input#wp-submit:hover,
+body.login div#login form#loginform p.submit input#wp-submit:active {
+	background-color: #2E4248;
+}
